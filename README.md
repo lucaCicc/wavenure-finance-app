@@ -10,6 +10,22 @@ Before getting started, make sure you have the following software installed:
 
 2. **Docker**: To run Postgresql locally, install Docker following the official guide: [Docker Installation](https://docs.docker.com/get-docker/).
 
+## Init repository submodule
+
+The main Repository is composed of two submodules: **backend** and **mobile**. To download the code you need to run the following commands:
+
+```
+$ git clone https://github.com/lucaCicc/wavenure-finance-app.git
+```
+
+```
+$ cd wavenure-finance-app
+```
+
+```
+$ git submodule update --init --recursive
+```
+
 # BACKEND
 
 You can launch the backed and DB with a docker container. Run the following command on terminal:
@@ -40,6 +56,8 @@ $ yarn start
 
 # FRONTEND
 
+To launch tha mobile apllication:
+
 ```
 $ cd mobile
 ```
@@ -48,7 +66,7 @@ $ cd mobile
 $ git checkout develop
 ```
 
-1. Install the specified versions of Node.js, Java and Ruby found in the file .tool-version
+1. Install the specified versions of Node.js, Java and Ruby found in the file .tool-version (optional you can also use the versions you have on your PC but but problems may occur!)
 
 ```
 $ asdf install
