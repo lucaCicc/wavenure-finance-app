@@ -1,6 +1,12 @@
 # wavenure-finance-app
 
-Welcome to wavenure-finance-app. This project has been developed in [Expo](https://expo.dev/) and is compatible with both iOS and Android platforms. Below you will find the necessary information to set up the development environment, run the project, and test the code.
+Welcome to wavenure-finance-app!
+
+It contains two submodules, one for the backend and one for the fontend:
+
+- **mobile**: it has been developed in Expo and is compatible with both iOS and Android platforms. Below you will find the necessary information to set up the development environment, run the project, and test the code.
+
+- **backed**: It as a RestAPI server for the mobile app; it has been developed with NodeJS + Express + Posgress + Prisma
 
 ## Prerequisites
 
