@@ -6,9 +6,13 @@ Welcome to wavenure-finance-app. This project has been developed in [Expo](https
 
 Before getting started, make sure you have the following software installed:
 
+Mobile:
+
 1. **Asfd**: To manage the versions of Node.js, Java, and Ruby, you need to have asdf installed. Refer to the official documentation for installation: [asdf](https://asdf-vm.com/).
 
-2. **Docker**: To run Postgresql locally, install Docker following the official guide: [Docker Installation](https://docs.docker.com/get-docker/).
+Backend:
+
+1. **Docker**: To run Postgresql locally, install Docker following the official guide: [Docker Installation](https://docs.docker.com/get-docker/).
 
 ## Init repository submodule
 
@@ -39,8 +43,13 @@ $ git checkout develop
 ```
 
 ```
-$ docker comose up
+$ docker compose up
 ```
+
+**TEST USER**: In migrations I added a test user; with this you can log in with the mobile app
+
+- **user**: test.test@gmail.com
+- **psw**: 123456
 
 If you want to run the backend without docker you have to:
 
