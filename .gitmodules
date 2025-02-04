@@ -5,3 +5,4 @@
 [submodule "mobile"]
 	path = mobile
 	url = https://github.com/lucaCicc/wavenure-finance-mobile.git
+	branch = develop
