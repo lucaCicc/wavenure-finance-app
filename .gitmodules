@@ -1,3 +1,7 @@
 [submodule "backend"]
 	path = backend
 	url = https://github.com/lucaCicc/wavenure-finance-backend.git
+	branch = develop
+[submodule "mobile"]
+	path = mobile
+	url = https://github.com/lucaCicc/wavenure-finance-mobile.git
